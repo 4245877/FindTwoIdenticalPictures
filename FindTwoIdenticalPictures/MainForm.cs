@@ -145,7 +145,35 @@ namespace FindTwoIdenticalPictures
             if (cards.All(c => c.IsFlipped))
             {
                 MessageBox.Show("Поздравляем! Вы нашли все пары!");
+                ResetGame();
             }
+        }
+
+        private void ResetGame()
+        {
+            // Сбрасываем состояние карт
+            foreach (var card in cards)
+            {
+                card.IsFlipped = false;
+            }
+            // Перемешиваем карты заново
+            Random rng = new Random();
+            cards = cards.OrderBy(c => rng.Next()).ToList();
+            // Обновляем PictureBox
+            int index = 0;
+            foreach (Control control in tableLayoutPanel1.Controls)
+            {
+                if (control is PictureBox pb)
+                {
+                    pb.Image = cardBackImage;
+                    pb.Tag = cards[index];
+                    index++;
+                }
+            }
+            // Сбрасываем переменные
+            firstFlipped = null;
+            firstPb = null;
+            isFlipping = false;
         }
 
         private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e) { }
