@@ -121,12 +121,6 @@
   <data name="picture1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\picture1.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="picture10" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\picture10.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="picture11" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\picture11.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="picture2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\picture2.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -147,48 +141,6 @@
   </data>
   <data name="picture8" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\picture8.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="picture9" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\picture9.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="picture12" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\picture12.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="picture13" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\picture13.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="picture14" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\picture14.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="picture15" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\picture15.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="picture16" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\picture16.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="picture17" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\picture17.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="picture18" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\picture18.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="picture19" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\picture19.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="picture20" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\picture20.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="picture21" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\picture21.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="picture22" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\picture22.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="picture23" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\picture23.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="picture24" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\picture24.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="CardBack" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\CardBack.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>

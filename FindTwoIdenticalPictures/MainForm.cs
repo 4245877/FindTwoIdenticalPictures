@@ -43,22 +43,6 @@ namespace FindTwoIdenticalPictures
                 Image.FromStream(new System.IO.MemoryStream(Properties.Resources.picture6)),
                 Image.FromStream(new System.IO.MemoryStream(Properties.Resources.picture7)),
                 Image.FromStream(new System.IO.MemoryStream(Properties.Resources.picture8)),
-                Image.FromStream(new System.IO.MemoryStream(Properties.Resources.picture9)),
-                Image.FromStream(new System.IO.MemoryStream(Properties.Resources.picture10)),
-                Image.FromStream(new System.IO.MemoryStream(Properties.Resources.picture11)),
-                Image.FromStream(new System.IO.MemoryStream(Properties.Resources.picture12)),
-                Image.FromStream(new System.IO.MemoryStream(Properties.Resources.picture13)),
-                Image.FromStream(new System.IO.MemoryStream(Properties.Resources.picture14)),
-                Image.FromStream(new System.IO.MemoryStream(Properties.Resources.picture15)),
-                Image.FromStream(new System.IO.MemoryStream(Properties.Resources.picture16)),
-                Image.FromStream(new System.IO.MemoryStream(Properties.Resources.picture17)),
-                Image.FromStream(new System.IO.MemoryStream(Properties.Resources.picture18)),
-                Image.FromStream(new System.IO.MemoryStream(Properties.Resources.picture19)),
-                Image.FromStream(new System.IO.MemoryStream(Properties.Resources.picture20)),
-                Image.FromStream(new System.IO.MemoryStream(Properties.Resources.picture21)),
-                Image.FromStream(new System.IO.MemoryStream(Properties.Resources.picture22)),
-                Image.FromStream(new System.IO.MemoryStream(Properties.Resources.picture23)),
-                Image.FromStream(new System.IO.MemoryStream(Properties.Resources.picture24))
             };
 
             Random rng = new Random();
@@ -169,6 +153,7 @@ namespace FindTwoIdenticalPictures
         private void pictureBox2_Click(object sender, EventArgs e) { }
         private void pictureBox3_Click(object sender, EventArgs e) { }
         private void pictureBox4_Click(object sender, EventArgs e) { }
+        private void pictureBox8_Click(object sender, EventArgs e) { }
 
         private void btnExit_Click(object sender, EventArgs e)
         {
@@ -177,6 +162,18 @@ namespace FindTwoIdenticalPictures
             {
                 Application.Exit();
             }
+        }
+
+        private void btnInfo_Click(object sender, EventArgs e)
+        {
+            string rules = "Rules of the game \"Find two identical pictures\":\n\n" +
+                           "1. The playing field is laid out with cards face down..\n" +
+                           "2. The player opens two cards in turn.\n" +
+                           "3. If the images on the cards match, they remain open.\n" +
+                           "4. If the images are different, the cards are turned back over.\n" +
+                           "5. The goal of the game is to find all pairs of identical pictures.\n\n" +
+                           "Good luck!";
+            MessageBox.Show(rules, "Rules of the game", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
     }
 }
