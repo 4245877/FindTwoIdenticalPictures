@@ -1,12 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace FindTwoIdenticalPictures
+﻿namespace FindTwoIdenticalPictures
 {
-    internal class Card
+    public class Card
     {
+        public System.Drawing.Image Image { get; set; }
+        public bool IsFlipped { get; set; } = false; // По умолчанию карта не перевернута
+        public int Id { get; set; }
     }
 }
